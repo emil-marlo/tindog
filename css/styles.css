@@ -1,0 +1,178 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Title Section*/
+#title .container-fluid {
+  padding: 3% 10% 5%;
+  text-align: left;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Sections */
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #FF4c68;
+  color: white;
+}
+
+
+.rotate-img {
+  transform: rotate(25deg);
+  width: 50%;
+  left: 20%;
+  position: absolute;
+  top:5%;
+}
+
+@media (max-width: 1028px){
+  .rotate-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .container-fluid{
+    text-align: center;
+  }
+
+  .navbar-collapse{
+  align-items: left;
+  }
+
+}
+
+/* Features Section */
+#features{
+  padding: 5% 10% 1%;
+  position: relative;
+}
+
+.icon{
+  color: #ef8172;
+}
+
+.icon:hover{
+  color: #ff4c58;
+}
+
+.col-lg-4{
+  line-height: 2;
+  padding-bottom: 15%;
+}
+
+.desc{
+  color: #8f8f8f;
+  font-size: .75rem;
+  width: 200px;
+  margin: auto;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  padding: 7% 10% 1%;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+/* Footer Section */
+#footer {
+  padding: 10%;
+}
+
+.copyright-txt {
+  font-family: 'Ubuntu', sans-serif;
+  color: #8f8f8f;
+  line-height: 4;
+}
+
+.fav-sns {
+  padding:.5%;
+}
